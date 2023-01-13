@@ -6,4 +6,16 @@
   .btn {
     @apply mt-3 rounded-lg py-1 px-5 inline-block font-medium cursor-pointer;
   }
+
+  .checkbox {
+    @apply mr-2 align-middle bg-gray-50 border-gray-300 h-5 w-5 rounded;
+  }
+
+  .checkbox:focus {
+    @apply ring-2 ring-blue-300;
+  }
+
+  .checkbox:checked {
+    @apply bg-green-500;
+  }
 }
